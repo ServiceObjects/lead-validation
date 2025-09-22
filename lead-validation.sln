@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lead-validation-dot-net", "lead-validation-dot-net\lead-validation-dot-net.csproj", "{C4BA0751-4096-497E-9868-E7AA7C378ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lead-validation-dot-net-examples", "lead-validation-dot-net-examples\lead-validation-dot-net-examples.csproj", "{3DB7D50D-74C1-45A5-955B-5A34E723413B}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "lead-validation-nodejs", "lead-validation-nodejs\lead-validation-nodejs.esproj", "{187AB1A4-C3A7-BD73-1AEA-33EB4C02216E}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "lead-validation-nodejs-examples", "lead-validation-nodejs-examples\lead-validation-nodejs-examples.esproj", "{4BE75CD2-6418-21DB-B2E7-7A695A510C54}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lead-validation-python", "lead-validation-python\lead-validation-python.pyproj", "{75B48266-F5EC-4993-AF4C-20CE3750AE78}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lead-validation-python-examples", "lead-validation-python-examples\lead-validation-python-examples.pyproj", "{97887859-BB9A-450E-8A87-AD5F8E093E94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4BA0751-4096-497E-9868-E7AA7C378ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BA0751-4096-497E-9868-E7AA7C378ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BA0751-4096-497E-9868-E7AA7C378ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BA0751-4096-497E-9868-E7AA7C378ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB7D50D-74C1-45A5-955B-5A34E723413B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB7D50D-74C1-45A5-955B-5A34E723413B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB7D50D-74C1-45A5-955B-5A34E723413B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB7D50D-74C1-45A5-955B-5A34E723413B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187AB1A4-C3A7-BD73-1AEA-33EB4C02216E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187AB1A4-C3A7-BD73-1AEA-33EB4C02216E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187AB1A4-C3A7-BD73-1AEA-33EB4C02216E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{187AB1A4-C3A7-BD73-1AEA-33EB4C02216E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187AB1A4-C3A7-BD73-1AEA-33EB4C02216E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187AB1A4-C3A7-BD73-1AEA-33EB4C02216E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4BE75CD2-6418-21DB-B2E7-7A695A510C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE75CD2-6418-21DB-B2E7-7A695A510C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE75CD2-6418-21DB-B2E7-7A695A510C54}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4BE75CD2-6418-21DB-B2E7-7A695A510C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE75CD2-6418-21DB-B2E7-7A695A510C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE75CD2-6418-21DB-B2E7-7A695A510C54}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{75B48266-F5EC-4993-AF4C-20CE3750AE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B48266-F5EC-4993-AF4C-20CE3750AE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97887859-BB9A-450E-8A87-AD5F8E093E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97887859-BB9A-450E-8A87-AD5F8E093E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AE50CB-E395-439E-AA4E-C6DEA572DB6F}
+	EndGlobalSection
+EndGlobal
