@@ -3,8 +3,8 @@
  */
 export class InformationComponent {
     constructor(data = {}) {
-        this.Name = data.Name || null;
-        this.Value = data.Value || null;
+        this.Name = data.Name;
+        this.Value = data.Value;
     }
 
     toString() {
@@ -17,12 +17,12 @@ export class InformationComponent {
  */
 export class PhoneContact {
     constructor(data = {}) {
-        this.Name = data.Name || null;
-        this.Address = data.Address || null;
-        this.City = data.City || null;
-        this.State = data.State || null;
-        this.Zip = data.Zip || null;
-        this.Type = data.Type || null;
+        this.Name = data.Name;
+        this.Address = data.Address;
+        this.City = data.City;
+        this.State = data.State;
+        this.Zip = data.Zip;
+        this.Type = data.Type;
     }
 
     toString() {
@@ -35,10 +35,10 @@ export class PhoneContact {
  */
 export class Error {
     constructor(data = {}) {
-        this.Type = data.Type || null;
-        this.TypeCode = data.TypeCode || null;
-        this.Desc = data.Desc || null;
-        this.DescCode = data.DescCode || null;
+        this.Type = data.Type;
+        this.TypeCode = data.TypeCode;
+        this.Desc = data.Desc;
+        this.DescCode = data.DescCode;
     }
 
     toString() {
@@ -51,59 +51,59 @@ export class Error {
  */
 export class LVResponse {
     constructor(data = {}) {
-        this.OverallCertainty = data.OverallCertainty || null;
-        this.OverallQuality = data.OverallQuality || null;
-        this.LeadType = data.LeadType || null;
-        this.LeadCountry = data.LeadCountry || null;
-        this.NoteCodes = data.NoteCodes || null;
-        this.NoteDesc = data.NoteDesc || null;
-        this.NameCertainty = data.NameCertainty || null;
-        this.NameQuality = data.NameQuality || null;
-        this.FirstName = data.FirstName || null;
-        this.LastName = data.LastName || null;
-        this.FirstNameClean = data.FirstNameClean || null;
-        this.LastNameClean = data.LastNameClean || null;
-        this.NameNoteCodes = data.NameNoteCodes || null;
-        this.NameNoteDesc = data.NameNoteDesc || null;
-        this.AddressCertainty = data.AddressCertainty || null;
-        this.AddressQuality = data.AddressQuality || null;
-        this.Address1 = data.Address1 || null;
-        this.Address2 = data.Address2 || null;
-        this.Address3 = data.Address3 || null;
-        this.Address4 = data.Address4 || null;
-        this.Address5 = data.Address5 || null;
-        this.AddressLocality = data.AddressLocality || null;
-        this.AddressAdminArea = data.AddressAdminArea || null;
-        this.AddressPostalCode = data.AddressPostalCode || null;
-        this.AddressCountry = data.AddressCountry || null;
-        this.AddressNoteCodes = data.AddressNoteCodes || null;
-        this.AddressNoteDesc = data.AddressNoteDesc || null;
-        this.EmailCertainty = data.EmailCertainty || null;
-        this.EmailQuality = data.EmailQuality || null;
-        this.EmailCorrected = data.EmailCorrected || null;
-        this.EmailNoteCodes = data.EmailNoteCodes || null;
-        this.EmailNoteDesc = data.EmailNoteDesc || null;
-        this.IPAddressCertainty = data.IPAddressCertainty || null;
-        this.IPAddressQuality = data.IPAddressQuality || null;
-        this.IPCountry = data.IPCountry || null;
-        this.IPLocality = data.IPLocality || null;
-        this.IPAdminArea = data.IPAdminArea || null;
-        this.IPNoteCodes = data.IPNoteCodes || null;
-        this.IPNoteDesc = data.IPNoteDesc || null;
-        this.Phone1Certainty = data.Phone1Certainty || null;
-        this.Phone1Quality = data.Phone1Quality || null;
-        this.Phone1Locality = data.Phone1Locality || null;
-        this.Phone1AdminArea = data.Phone1AdminArea || null;
-        this.Phone1Country = data.Phone1Country || null;
-        this.Phone1NoteCodes = data.Phone1NoteCodes || null;
-        this.Phone1NoteDesc = data.Phone1NoteDesc || null;
-        this.Phone2Certainty = data.Phone2Certainty || null;
-        this.Phone2Quality = data.Phone2Quality || null;
-        this.Phone2Locality = data.Phone2Locality || null;
-        this.Phone2AdminArea = data.Phone2AdminArea || null;
-        this.Phone2Country = data.Phone2Country || null;
-        this.Phone2NoteCodes = data.Phone2NoteCodes || null;
-        this.Phone2NoteDesc = data.Phone2NoteDesc || null;
+        this.OverallCertainty = data.OverallCertainty;
+        this.OverallQuality = data.OverallQuality;
+        this.LeadType = data.LeadType;
+        this.LeadCountry = data.LeadCountry;
+        this.NoteCodes = data.NoteCodes;
+        this.NoteDesc = data.NoteDesc;
+        this.NameCertainty = data.NameCertainty;
+        this.NameQuality = data.NameQuality;
+        this.FirstName = data.FirstName;
+        this.LastName = data.LastName;
+        this.FirstNameClean = data.FirstNameClean;
+        this.LastNameClean = data.LastNameClean;
+        this.NameNoteCodes = data.NameNoteCodes;
+        this.NameNoteDesc = data.NameNoteDesc;
+        this.AddressCertainty = data.AddressCertainty;
+        this.AddressQuality = data.AddressQuality;
+        this.Address1 = data.Address1;
+        this.Address2 = data.Address2;
+        this.Address3 = data.Address3;
+        this.Address4 = data.Address4;
+        this.Address5 = data.Address5;
+        this.AddressLocality = data.AddressLocality;
+        this.AddressAdminArea = data.AddressAdminArea;
+        this.AddressPostalCode = data.AddressPostalCode;
+        this.AddressCountry = data.AddressCountry;
+        this.AddressNoteCodes = data.AddressNoteCodes;
+        this.AddressNoteDesc = data.AddressNoteDesc;
+        this.EmailCertainty = data.EmailCertainty;
+        this.EmailQuality = data.EmailQuality;
+        this.EmailCorrected = data.EmailCorrected;
+        this.EmailNoteCodes = data.EmailNoteCodes;
+        this.EmailNoteDesc = data.EmailNoteDesc;
+        this.IPAddressCertainty = data.IPAddressCertainty;
+        this.IPAddressQuality = data.IPAddressQuality;
+        this.IPCountry = data.IPCountry;
+        this.IPLocality = data.IPLocality;
+        this.IPAdminArea = data.IPAdminArea;
+        this.IPNoteCodes = data.IPNoteCodes;
+        this.IPNoteDesc = data.IPNoteDesc;
+        this.Phone1Certainty = data.Phone1Certainty;
+        this.Phone1Quality = data.Phone1Quality;
+        this.Phone1Locality = data.Phone1Locality;
+        this.Phone1AdminArea = data.Phone1AdminArea;
+        this.Phone1Country = data.Phone1Country;
+        this.Phone1NoteCodes = data.Phone1NoteCodes;
+        this.Phone1NoteDesc = data.Phone1NoteDesc;
+        this.Phone2Certainty = data.Phone2Certainty;
+        this.Phone2Quality = data.Phone2Quality;
+        this.Phone2Locality = data.Phone2Locality;
+        this.Phone2AdminArea = data.Phone2AdminArea;
+        this.Phone2Country = data.Phone2Country;
+        this.Phone2NoteCodes = data.Phone2NoteCodes;
+        this.Phone2NoteDesc = data.Phone2NoteDesc;
         this.PhoneContact = data.PhoneContact ? new PhoneContact(data.PhoneContact) : null;
         this.InformationComponents = (data.InformationComponents || []).map(component => new InformationComponent(component));
         this.Error = data.Error ? new Error(data.Error) : null;

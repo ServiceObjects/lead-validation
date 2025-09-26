@@ -22,37 +22,36 @@ This document defines the input, output, and behavior of the web services in LV.
 // 1. Build the input
 //
 //  Required fields:
-//               LicenseKey
-//               IsLive
+//               licenseKey
+//               isLive
 // 
 // Optional:
-//        FullName
-//        Salutation
-//        FirstName
-//        BusinessName
-//        BusinessDomain
-//        BusinessEIN
-//        Address1
-//        Address2
-//        Address3
-//        Address4
-//        Address5
-//        Locality
-//        AdminArea
-//        PostalCode
-//        Country
-//        Phone1
-//        Phone2
-//        Email
-//        IPAddress
-//        Gender
-//        DateOfBirth
-//        UTCCaptureTime
-//        OutputLanguage
-//        TestType
-//        LicenseKey
-//        IsLive
-//        TimeoutSeconds
+//         fullName
+//         salutation
+//         firstName
+//         lastName
+//         businessName
+//         businessDomain
+//         businessEIN
+//         address1
+//         address2
+//         address3
+//         address4
+//         address5
+//         locality
+//         adminArea
+//         postalCode
+//         country
+//         phone1
+//         phone2
+//         email
+//         ipAddress
+//         gender
+//         dateOfBirth
+//         utcCaptureTime
+//         outputLanguage
+//         testType
+//         timeoutSeconds
 
 import { ValidateLeadV3Client } from '../lead-validation-nodejs/REST/validate_lead_v3_rest.js';
 

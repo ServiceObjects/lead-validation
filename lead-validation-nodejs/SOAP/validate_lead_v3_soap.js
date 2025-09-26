@@ -12,45 +12,45 @@ class ValidateLeadV3Soap {
      * Initializes a new instance of the ValidateLeadV3Soap class with the provided input parameters,
      * setting up primary and backup WSDL URLs based on the live/trial mode.
      * </summary>
-     * @param {string} FullName - The contacts full name. Optional.
-     * @param {string} Salutation - Salutation of the contact. Optional.
-     * @param {string} FirstName - First name of the contact. Optional.
-     * @param {string} LastName - Last name of the contact. Optional.
-     * @param {string} BusinessName - The contacts company. Optional.
-     * @param {string} BusinessDomain - Website domain associated with the business. Optional.
-     * @param {string} BusinessEIN - Company Tax Number for US leads. Optional.
-     * @param {string} Address1 - Address line 1 of the contact or business address. Optional.
-     * @param {string} Address2 - Address line 2 of the contact or business address. Optional.
-     * @param {string} Address3 - Address line 3 of the contact or business address. Optional.
-     * @param {string} Address4 - Address line 4 of the contact or business address. Optional.
-     * @param {string} Address5 - Address line 5 of the contact or business address. Optional.
-     * @param {string} Locality - The city of the contacts postal address. Optional.
-     * @param {string} AdminArea - The state or province of the contacts postal address. Optional.
-     * @param {string} PostalCode - The zip or postal code of the contacts postal address. Optional.
-     * @param {string} Country - The country of the contacts postal address (e.g., "United States", "US"). Optional.
-     * @param {string} Phone1 - The contacts primary phone number. Optional.
-     * @param {string} Phone2 - The contacts secondary phone number. Optional.
-     * @param {string} Email - The contacts email address. Optional.
-     * @param {string} IPAddress - The contacts IP address in IPv4. Optional.
-     * @param {string} Gender - The contacts gender. Optional.
-     * @param {string} DateOfBirth - The contacts date of birth. Optional.
-     * @param {string} UTCCaptureTime - The time the lead was submitted. Optional.
-     * @param {string} OutputLanguage - Language for some output information. Optional.
-     * @param {string} TestType - The type of validation to perform. Required.
-     * @param {string} LicenseKey - Your license key to use the service.    
+     * @param {string} fullName - The contacts full name (e.g., "Jane Doe"). Optional.
+     * @param {string} salutation - Salutation of the contact (e.g., "Dr", "Mr"). Optional.
+     * @param {string} firstName - First name of the contact (e.g., "Jane"). Optional.
+     * @param {string} lastName - Last name of the contact (e.g., "Doe"). Optional.
+     * @param {string} businessName - The contacts company (e.g., "Service Objects"). Optional.
+     * @param {string} businessDomain - Website domain associated with the business (e.g., "serviceobjects.com"). Optional.
+     * @param {string} businessEIN - Company Tax Number for US leads. Optional.
+     * @param {string} address1 - Address line 1 of the contact or business address. Optional.
+     * @param {string} address2 - Address line 2 of the contact or business address. Optional.
+     * @param {string} address3 - Address line 3 of the contact or business address. Optional.
+     * @param {string} address4 - Address line 4 of the contact or business address. Optional.
+     * @param {string} address5 - Address line 5 of the contact or business address. Optional.
+     * @param {string} locality - The city of the contacts postal address. Optional.
+     * @param {string} adminArea - The state or province of the contacts postal address. Optional.
+     * @param {string} postalCode - The zip or postal code of the contacts postal address. Optional.
+     * @param {string} country - The country of the contacts postal address (e.g., "United States", "US"). Optional.
+     * @param {string} phone1 - The contacts primary phone number. Optional.
+     * @param {string} phone2 - The contacts secondary phone number. Optional.
+     * @param {string} email - The contacts email address. Optional.
+     * @param {string} ipAddress - The contacts IP address in IPv4. Optional.
+     * @param {string} gender - The contacts gender ("Male", "Female", "Neutral"). Optional.
+     * @param {string} dateOfBirth - The contacts date of birth. Optional.
+     * @param {string} utcCaptureTime - The time the lead was submitted. Optional.
+     * @param {string} outputLanguage - Language for some output information. Optional.
+     * @param {string} testType - The type of validation to perform. Required.
+     * @param {string} licenseKey - Your license key to use the service.
      * @param {boolean} isLive - Value to determine whether to use the live or trial servers.
      * @param {number} timeoutSeconds - Timeout, in seconds, for the call to the service.
      * @throws {Error} Thrown if LicenseKey is empty or null.
      */
-    constructor(FullName, Salutation, FirstName, LastName, BusinessName, BusinessDomain, BusinessEIN,
-        Address1, Address2, Address3, Address4, Address5, Locality, AdminArea, PostalCode, Country,
-        Phone1, Phone2, Email, IPAddress, Gender, DateOfBirth, UTCCaptureTime, OutputLanguage, TestType, LicenseKey,
+    constructor(fullName, salutation, firstName, lastName, businessName, businessDomain, businessEIN,
+        address1, address2, address3, address4, address5, locality, adminArea, postalCode, country,
+        phone1, phone2, email, ipAddress, gender, dateOfBirth, utcCaptureTime, outputLanguage, testType, licenseKey,
         isLive = true, timeoutSeconds = 15) {
 
         this.args = {
-            FullName, Salutation, FirstName, LastName, BusinessName, BusinessDomain, BusinessEIN,
-            Address1, Address2, Address3, Address4, Address5, Locality, AdminArea, PostalCode, Country,
-            Phone1, Phone2, Email, IPAddress, Gender, DateOfBirth, UTCCaptureTime, OutputLanguage, TestType, LicenseKey
+            fullName, salutation, firstName, lastName, businessName, businessDomain, businessEIN,
+            address1, address2, address3, address4, address5, locality, adminArea, postalCode, country,
+            phone1, phone2, email, ipAddress, gender, dateOfBirth, utcCaptureTime, outputLanguage, testType, licenseKey
         };
 
         this.isLive = isLive;

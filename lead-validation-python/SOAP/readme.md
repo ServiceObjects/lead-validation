@@ -25,30 +25,31 @@ This document defines the input, output, and behavior of the web services in LV.
 #               IsLive
 #
 # Optional:
-#        FullName
-#        Salutation
-#        FirstName
-#        BusinessName
-#        BusinessDomain
-#        BusinessEIN
-#        Address1
-#        Address2
-#        Address3
-#        Address4
-#        Address5
-#        Locality
-#        AdminArea
-#        PostalCode
-#        Country
-#        Phone1
-#        Phone2
-#        Email
-#        IPAddress
-#        Gender
-#        DateOfBirth
-#        UTCCaptureTime
-#        OutputLanguage
-#        TestType
+#          full_name
+#          salutation
+#          first_name
+#          last_name
+#          business_name
+#          business_domain
+#          business_ein
+#          address1
+#          address2
+#          address3
+#          address4
+#          address5
+#          locality
+#          admin_area
+#          postal_code
+#          country
+#          phone1
+#          phone2
+#          email
+#          ip_address
+#          gender
+#          date_of_birth
+#          utc_capture_time
+#          output_language
+#          test_type
 
 from validate_lead_v3_soap import ValidateLeadV3Soap
  
